@@ -1,0 +1,21 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+.cabecalho__lista{
+    display: flex;
+    gap: 2em;
+}
+@media screen and (max-width:600px) {
+    .cabecalho__lista{
+        display: none;
+    }
+}
+.lista--selecionado:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+@import url('cabecalho/cabecalho.css');
+@import url('conteudo/conteudo.css');
+@import url('receitas/receitas.css');
+@import url('equipe/equipe.css');
+@import url('rodapé/footer.css');
+:root{
+    --cor-fundo:#dbdbdb;
+    --cor-padrao:#000000;
+    
+    --cor-vinho:#8D0606;
+    --cor-branco:#ffffff;
+    --cor-cinza:#8c8888;
+}
+li{
+    list-style:none;
+}
+a{
+    color: #00000098;
+    text-decoration: none;
+}
+body{
+    background: var(--cor-fundo);
+}
+h1,h2{
+    font-family: 'pacifico';
+    font-weight: 400;
+}
+a:hover{
+  
+}

@@ -1,0 +1,11 @@
+footer{
+    text-align: center;
+    padding: 2em 0;
+}
+footer img{
+    max-width: 64px;
+    margin: 0 1em;
+}
+.rodapé__redesSociais{
+    text-align: center;
+}

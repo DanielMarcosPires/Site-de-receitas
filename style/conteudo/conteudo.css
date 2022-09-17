@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: 'pacifico';
+    src: url('../../assets/font/Pacifico.ttf');
+}
+.conteudo{
+    background: var(--cor-branco);
+    padding: 0 0 1em 0;
+}
+.conteudo__banner{
+    position: relative;
+    text-align: center;
+}
+.conteudo__banner img{
+    width: 100%;
+}
+
+.conteudo__banner h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    font-family: 'pacifico';
+    font-weight: 400;
+    width: 100%;
+    font-size: 51px;
+    color: var(--cor-branco);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width:600px) {
+    .conteudo__banner h1{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    font-family: 'pacifico';
+    font-weight: 400;
+    width: 100%;
+    font-size: 41px;
+    color: var(--cor-branco);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    }
+}
+.conteudoDeReceitas{
+   padding: 1em;
+}
+.conteudoDeReceitas__titulo{
+    text-align: center;
+    font-size: 51px;
+    color: var(--cor-vinho);
+  
+}
+@media  screen and (max-width:600px) {
+    .conteudoDeReceitas__titulo{
+        font-size: 35px;
+    }
+}
+.conteudoDeReceitas__texto{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 300;
+
+   
+    margin: 8px auto;
+    color: var(--cor-cinza);
+
+}
+@media screen and (max-width:600px) {
+    .conteudoDeReceitas__texto{
+       
+      font-size: 24px;
+    }
+}
