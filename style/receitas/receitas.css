@@ -1,0 +1,53 @@
+.receitas__lista{
+    display: grid;
+    position: relative;
+    justify-content: center;
+
+    grid-template: 
+    'bloco bloco bloco'
+    'bloco bloco bloco'
+    'bloco bloco bloco'
+    ;
+   
+    flex-wrap: wrap;
+    gap: 5em;
+    padding: 1em;
+}
+@media screen and (max-width:900px) {
+    .receitas__lista{
+        grid-template: 
+        'bloco'/1fr 1fr;
+    }
+}
+@media screen and (max-width:600px) {
+    .receitas__lista{
+       grid-template: 'bloco';
+        word-wrap: break-word;
+
+    }
+}
+
+.receitas__bloco{
+    background: white;
+    max-width: 286px;
+   
+}
+.receitas__descricao{
+    padding: 16px 1em;
+}
+.receitas__titulo{
+    font-family:roboto;
+}
+.receitas__texto{
+    width: 200px;
+}
+.receitas__botao{
+    background: var(--cor-vinho);
+    color: var(--cor-branco);
+
+    padding: 8px;
+    border-radius: 5px;
+}
+.receitas--acao:hover{
+    background: #5e0404;
+}

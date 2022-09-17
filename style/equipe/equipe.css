@@ -1,0 +1,35 @@
+.equipe{
+    text-align: center;
+    background: var(--cor-branco);
+    padding: 1em 0;
+}
+.equipe__titulo,.equipe__nome{
+    color: var(--cor-vinho);
+}
+.equipe__titulo{
+    font-size: 51px;
+  
+}
+.equipe__texto{
+    color: var(--cor-cinza);
+}
+.equipe__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5em;
+}
+@media screen and (max-width:600px) {
+    .equipe__lista{
+        flex-direction: column;
+    }
+}
+.equipe__funcionario img{
+    border-radius: 100%;
+}
+.equipe__nome{
+    font-size: 32px;
+}
+.equipe__funcionario p{
+    color: var(--cor-cinza);
+}
