@@ -16,8 +16,8 @@
             <nav class="cabecalho__navegacao">
                 <ul class="cabecalho__lista">
                     <li><a class="lista--selecionado" href="#">início</a></li>
-                    <li><a class="lista--selecionado" href="#">receitas</a></li>
-                    <li><a class="lista--selecionado" href="#">quem somos</a></li>
+                    <li><a class="lista--selecionado" href="#receitas">receitas</a></li>
+                    <li><a class="lista--selecionado" href="#quemSomos">quem somos</a></li>
                     <li><a class="lista--selecionado" href="#">comunidade</a></li>
                 </ul>
             </nav>
@@ -36,7 +36,7 @@
                         <p class="conteudoDeReceitas__texto">Nossa receitas ajudam você a aproveitar melhor os alimentos, economizar,ganhar tempo e praticidade.</p>
                     </div>
                 </section>
-                <section class="receitas">
+                <section class="receitas" id="receitas">
                     <ul class="receitas__lista">
                         <li class="receitas__bloco">
                             <img src="assets/img/receitas/tigela-de-abacate.jpg" alt="tigela de abacate">
@@ -47,7 +47,51 @@
                                 <p class="receitas__texto">
                                     Receita refrescante e cheia de vitaminas para seu café da manhã.
                                 </p>
-                                <a class="receitas__botao receitas--acao" href="#">Ver receita</a>
+                                <input type="checkbox" id="1"  class="receitas--aberto">
+                                <!-- <a  href="">Ver receita</a> -->
+                                <label class="receitas__botao receitas--acao" for="1">Ver receita</label>
+                                <aside class="receitas__selecionado">
+                                    <label class="receitas__botao receitas--acao receitas--fechar" for="1"><img src="assets/img/cross_114275.svg" alt="Fechar a lista de receita"></label>
+                                    <h3>Tigela de abacate</h3>
+                                    <p>Ingredientes</p>
+                                    <ol class="receitas__ingredientes">
+                                        <li>
+                                            <input type="checkbox" id="n1">
+                                            <label for="n1">2 abacates pequenos</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="n2">
+                                            <label for="n2">400ml de suco de laranja</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="n3">
+                                            <label for="n3">Açucar ou adoçante a gosto</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="n4">
+                                            <label for="n4">Granola a gosto</label>
+                                        </li>
+                                    </ol>
+                                    <h3>Modo de preparo</h3>
+                                    <ol class="receitas__ingredientes">
+                                      <li>
+                                        <input type="checkbox" id="n5">
+                                        <label for="n5">Em um liquidificador bata o abacate com o suco de laranja e o açúcar ou adoçante.</label>
+                                      </li>
+                                      <li>
+                                        <input type="checkbox" id="n6">
+                                        <label for="n6">Transfira o abacate batido para uma tigela.</label>
+                                      </li>
+                                      <li>
+                                        <input type="checkbox" name="" id="n7">
+                                        <label for="n7">Distribua a granola por cima.</label>
+                                      </li>
+                                      <li>
+                                        <input type="checkbox" name="" id="n8">
+                                        <label for="n8">Sirva gelado.</label>
+                                      </li>
+                                    </ol>
+                                </aside>
                             </div>
                         </li>
                         <li class="receitas__bloco">
@@ -59,7 +103,13 @@
                                 <p class="receitas__texto">
                                     Receita refrescante e cheia de vitaminas para seu café da manhã
                                 </p>
-                                <a class="receitas__botao receitas--acao" href="#">Ver receita</a>
+                                   <input type="checkbox" id="2" class="receitas--aberto">
+                                <!-- <a  href="">Ver receita</a> -->
+                                  <label class="receitas__botao receitas--acao" for="2">Ver receita</label>
+                                <aside class="receitas__selecionado">
+                                    <label class="receitas__botao receitas--acao receitas--fechar" for="2"><img src="assets/img/cross_114275.svg" alt="Fechar a lista de receita"></label>
+                                    oi
+                                </aside>
                             </div>
                         </li>
                         <li class="receitas__bloco">
@@ -71,7 +121,13 @@
                                 <p class="receitas__texto">
                                    Receita refrescante e cheia de vitaminas para seu café da manhã
                                 </p>
-                                <a class="receitas__botao receitas--acao" href="#">Ver receita</a>
+                                   <input type="checkbox" id="3" class="receitas--aberto">
+                         
+                                     <label class="receitas__botao receitas--acao" for="3">Ver receita</label>
+                                     <aside class="receitas__selecionado">
+                                        <label class="receitas__botao receitas--acao receitas--fechar" for="3"><img src="assets/img/cross_114275.svg" alt="Fechar a lista de receita"></label>
+                              
+                                    </aside>
                             </div>
                         </li>
                         <li class="receitas__bloco">
@@ -83,7 +139,13 @@
                                 <p class="receitas__texto">
                                     Receita refrescante e cheia de vitaminas para seu café da manhã.
                                 </p>
-                                <a class="receitas__botao receitas--acao" href="#">Ver receita</a>
+                                   <input type="checkbox" id="4" class="receitas--aberto">
+                                <!-- <a  href="">Ver receita</a> -->
+                                     <label class="receitas__botao receitas--acao" for="4">Ver receita</label>
+                                     <aside class="receitas__selecionado">
+                                        <label class="receitas__botao receitas--acao receitas--fechar" for="4"><img src="assets/img/cross_114275.svg" alt="Fechar a lista de receita"></label>
+                                   
+                                    </aside>
                             </div>
                         </li>
                         <li class="receitas__bloco">
@@ -95,7 +157,13 @@
                                <p class="receitas__texto">
                                    Receita refrescante e cheia de vitaminas para seu café da manhã.
                                </p>
-                               <a class="receitas__botao receitas--acao" href="#">Ver receita</a>
+                                  <input type="checkbox" id="5" class="receitas--aberto">
+                                <!-- <a  href="">Ver receita</a> -->
+                                    <label class="receitas__botao receitas--acao" for="5">Ver receita</label>
+                                    <aside class="receitas__selecionado">
+                                        <label class="receitas__botao receitas--acao receitas--fechar" for="5"><img src="assets/img/cross_114275.svg" alt="Fechar a lista de receita"></label>
+                                       <h3></h3>
+                                    </aside>
                             </div>
                         </li>
                         <li class="receitas__bloco">
@@ -107,12 +175,18 @@
                                 <p class="receitas__texto">
                                     Receita refrescante e cheia de vitaminas para seu café da manhã.
                                 </p>
-                                <a class="receitas__botao receitas--acao" href="#">Ver receita</a>
+                                   <input type="checkbox" id="6" class="receitas--aberto">
+                                <!-- <a  href="">Ver receita</a> -->
+                                    <label class="receitas__botao receitas--acao" for="6">Ver receita</label>
+                                    <aside class="receitas__selecionado">
+                                        <label class="receitas__botao receitas--acao receitas--fechar" for="6"><img src="assets/img/cross_114275.svg" alt="Fechar a lista de receita"></label>
+                                        oi
+                                    </aside>
                             </div>
                         </li>
                     </ul>
                 </section>
-                <section class="equipe">
+                <section class="equipe" id="quemSomos">
                    <h2 class="equipe__titulo">Quem somos?</h2>
                    <p class="equipe__texto">
                     Conheça a comunidade por trás da iniciativa

@@ -41,6 +41,37 @@
 .receitas__texto{
     width: 200px;
 }
+
+.receitas--aberto{
+    display: none;
+}
+.receitas__selecionado{
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.receitas--aberto:checked ~ .receitas__selecionado{
+    position: fixed;
+    display: block;
+    right: 50%;
+    top: 40%;
+    transform: translate(50%,-50%);
+   
+    background: rgb(255, 230, 118);
+    box-shadow: 0 0 10px black;
+    height: 500px;
+    width: 350px;
+   
+}
+.receitas__selecionado label{
+    position: relative;
+    display: inline-block;
+    top: 0;
+    border-radius: 0 0 0 0;
+    text-align: center;
+    
+}
+
 .receitas__botao{
     background: var(--cor-vinho);
     color: var(--cor-branco);
@@ -50,4 +81,21 @@
 }
 .receitas--acao:hover{
     background: #5e0404;
+}
+.receitas__ingredientes{
+    position: relative;
+    right: 2%;
+    text-align: left;
+}
+.receitas__ingredientes li{
+    margin: 5px 0;
+    border-bottom: black dotted 2px;
+    list-style: decimal-leading-zero;
+}
+.receitas__ingredientes label{
+    display: inline-block;
+}
+.receitas--fechar{
+    width: 50%;
+    display: block;
 }
