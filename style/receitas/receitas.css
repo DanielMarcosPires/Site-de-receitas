@@ -45,6 +45,13 @@
 .receitas--aberto{
     display: none;
 }
+.receitas__imagem{
+    width: 100%;
+    border-bottom: solid 5px;
+}
+.receitas__imagem--secundario{
+    max-width: 286px;
+}
 .receitas__selecionado{
     text-align: center;
     display: none;
@@ -58,11 +65,14 @@
     transform: translate(50%,-50%);
    
     background: rgb(255, 230, 118);
-    box-shadow: 0 0 10px black;
-    height: 500px;
+    box-shadow: 0 0 25px 20px black;
+    height: 600px;
     width: 350px;
-   
+    overflow-y: scroll;
+    
+   z-index: 20;
 }
+
 .receitas__selecionado label{
     position: relative;
     display: inline-block;
@@ -96,6 +106,6 @@
     display: inline-block;
 }
 .receitas--fechar{
-    width: 50%;
+    width: 95%;
     display: block;
 }
