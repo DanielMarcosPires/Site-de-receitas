@@ -7,6 +7,8 @@
     background: var(--cor-branco);
     padding: 0 0 1em 0;
 }
+
+   
 .conteudo__banner{
     position: relative;
     text-align: center;
@@ -15,7 +17,7 @@
     width: 100%;
 }
 
-.conteudo__banner h1{
+.conteudo__banner .conteudo__titulo{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -24,7 +26,7 @@
     font-family: 'pacifico';
     font-weight: 400;
     width: 100%;
-    font-size: 51px;
+    font-size: 80px;
     color: var(--cor-branco);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
 }

@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900');
 @import url('cabecalho/cabecalho.css');
 @import url('conteudo/conteudo.css');
 @import url('receitas/receitas.css');
 @import url('equipe/equipe.css');
-@import url('rodapé/footer.css');
+@import url('rodape/footer.css');
 :root{
     --cor-fundo:#dbdbdb;
     --cor-padrao:#000000;
@@ -10,6 +11,10 @@
     --cor-vinho:#8D0606;
     --cor-branco:#ffffff;
     --cor-cinza:#8c8888;
+}
+html{
+    scroll-behavior: smooth;
+   scroll-padding: 170px;
 }
 li{
     list-style:none;
